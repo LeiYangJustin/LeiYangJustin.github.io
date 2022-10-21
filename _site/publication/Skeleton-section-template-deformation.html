@@ -19,7 +19,7 @@
 
 
 
-<title>Teaching experience 2 - Yang Lei</title>
+<title>A RBF-based Deformation Method for Fast Adaptation of Finite Element Analysis Models for Structural Design - Yang Lei</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yang Lei">
-<meta property="og:title" content="Teaching experience 2">
+<meta property="og:title" content="A RBF-based Deformation Method for Fast Adaptation of Finite Element Analysis Models for Structural Design">
 
 
-  <link rel="canonical" href="https://leiyangjustin.github.io/teaching/2015-spring-teaching-1">
-  <meta property="og:url" content="https://leiyangjustin.github.io/teaching/2015-spring-teaching-1">
+  <link rel="canonical" href="https://leiyangjustin.github.io/publication/Skeleton-section-template-deformation">
+  <meta property="og:url" content="https://leiyangjustin.github.io/publication/Skeleton-section-template-deformation">
 
 
 
-  <meta property="og:description" content="This is a description of a teaching experience. You can use markdown like any other post.">
+  <meta property="og:description" content="This is a collection of works that I did during my PhD study at Dalian University of Technology">
 
 
 
@@ -50,9 +50,6 @@
 
 
 
-
-  <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2015-01-01T00:00:00-08:00">
 
 
 
@@ -245,21 +242,19 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Teaching experience 2">
-    <meta itemprop="description" content="This is a description of a teaching experience. You can use markdown like any other post.">
-    <meta itemprop="datePublished" content="January 01, 2015">
+    <meta itemprop="headline" content="A RBF-based Deformation Method for Fast Adaptation of Finite Element Analysis Models for Structural Design">
+    <meta itemprop="description" content="This is a collection of works that I did during my PhD study at Dalian University of Technology">
+    
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Teaching experience 2
+          <h1 class="page__title" itemprop="headline">A RBF-based Deformation Method for Fast Adaptation of Finite Element Analysis Models for Structural Design
 </h1>
           
         
         
-        
-          <p> Workshop, <i>University 1, Department</i>, 2015 </p>
         
         
              
@@ -269,13 +264,40 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>This is a description of a teaching experience. You can use markdown like any other post.</p>
+        <h1 id="finite-element-mesh-deformation-with-the-skeleton-section-template">Finite element mesh deformation with the skeleton-section template</h1>
 
-<h1 id="heading-1">Heading 1</h1>
+<h2 id="this-project-aims-to-provide-an-intuitive-deformation-metaphor-for-slender-structures-like-beams-that-are-widely-seen-in-automobile-structure-design">This project aims to provide an intuitive deformation metaphor for slender structures like beams that are widely seen in automobile structure design.</h2>
 
-<h1 id="heading-2">Heading 2</h1>
+<p><strong>Abstract:</strong> To develop fast finite element (FE) adaptation methods for simulation-driven design optimization, we propose a radial basis functions (RBF) method with a skeleton-section template to globally and locally deform FE meshes of thin-walled beam structures.</p>
 
-<h1 id="heading-3">Heading 3</h1>
+<p>The skeleton-section template is automatically formulated from the input mesh and serves as a hierarchical parameterization for the FE meshes. With this hierarchical parameterization, both the global and the local geometries of a thin-walled beam can be processed in the same framework, which is of importance for designing engineering components. The curve skeleton of the mesh is constructed with Voronoi decomposition, while the cross-sections are extracted from the mesh based on the curve skeleton.</p>
+
+<p>The RBF method is employed to locally and globally deform the mesh model with the cross-sections and the skeleton, respectively. The RBF method solves the spatial deformation field given prescribed deformations at the cross-sections. At the local scale, the user modifies the cross-sections to deform a region of the surface mesh. At the global level, the skeleton is manipulated and its deformation is transferred to all cross-sections to induce the mesh deformation.</p>
+
+<p>In order to handle curved mesh models and attain flexible local deformations, the input mesh is embedded into its skeleton frame field using an anisotropic distance metric. In this way, even strip-like features along arbitrary directions can be created on the mesh model using only a few cross-sections as the deformation handles. In addition, form features can be rigidly preserved at both deformation levels.</p>
+
+<p>Numerical examples demonstrate that intuitive and qualified FE mesh deformations can be obtained with manipulation of the skeleton-section template.</p>
+
+<p><a href="https://github.com/LeiYangJustin/LibSST">Project page and codes</a></p>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0010448515001621">Link to the publisher’s version</a></p>
+
+<h1 id="skeleton-section-template-parameterization-for-shape-optimization">Skeleton-Section Template Parameterization for Shape Optimization</h1>
+
+<h2 id="this-project-showcases-that-it-is-promising-to-use-the-previous-work-for-sampling-the-design-space-for-crashworthiness-design-of-a-structure">This project showcases that it is promising to use the previous work for sampling the design space for crashworthiness design of a structure.</h2>
+
+<p><strong>Abstract:</strong> A technique based on a skeleton-section template for parameterizing finite element (FE) models is reported and applied to shape optimization of thin-walled beam components. The template consists of a skeletal curve and a set of cross-sectional profiles. The skeletal curve can be used to derive global model variations, while the cross section is designed to obtain local deformations of the given shape. A mesh deformation method based on the radial basis functions (RBF) interpolation is employed to derive the shape variations. Specifically, the skeleton-embedding space and an anisotropic distance metric are introduced to improve the RBF deformation method. To validate the applicability of the proposed template-based parameterization technique to general shape optimization frameworks, two proof-of-concept numerical studies pertaining to crashworthiness design of an S-shaped frame were implemented. The first case study focused on global deformations with the skeletal curve, and the second treated the cross-sectional profiles as design parameters to derive local reinforcements on the model. Both studies showed the efficiency of the proposed method in generation of quality shape variants for optimization. From the numerical results, considerable amount of improvements in crashworthiness performances of the S-shaped frame were observed as measured by the peak crushing force (PCF) and the energy absorption. We conclude that the proposed template-based parameterization technique is suitable for shape optimization tasks.</p>
+
+<p><a href="https://doi.org/10.1115/1.4040487">Link to the publisher’s version</a></p>
+
+<h1 id="concurrent-editing-of-automotive-styling-and-structure-with-wireframe-pair">Concurrent editing of automotive styling and structure with wireframe-pair</h1>
+
+<h2 id="this-project-aims-to-provide-an-intuitive-deformation-metaphor-for-the-body-in-white-of-an-automobile">This project aims to provide an intuitive deformation metaphor for the body-in-white of an automobile.</h2>
+
+<p><strong>Abstract:</strong> A constant demand in engineering design is to couple aesthetics and functionality of design. In this paper, a method is proposed to rapidly update the structural analysis models given the modifications made in the styling/packaging designs, forming a concurrent mechanism for developing the automotive styling and body structure. The seemingly disparate domains are represented by and thus coupled through a pair of wireframes. A joint mapping based on the hard points in packaging and a part mapping encoding local influences between wireframes are established. The deformation transfer from one of the wireframes to the other is solved as an optimization with constraints obtained from the two mappings. Finally, the finite element mesh model is adapted in accordance with the deformed structural wireframe, using a mesh morphing method based on the free-form deformation technique. Numerical results validate the proposed method and demonstrate its effectiveness.</p>
+
+<p><a href="https://journals.sagepub.com/doi/abs/10.1177/0954407016669274">Link to the publisher’s version</a></p>
+
 
         
       </section>
@@ -296,11 +318,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://leiyangjustin.github.io/teaching/2015-spring-teaching-1" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://leiyangjustin.github.io/publication/Skeleton-section-template-deformation" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://leiyangjustin.github.io/teaching/2015-spring-teaching-1" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://leiyangjustin.github.io/publication/Skeleton-section-template-deformation" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://leiyangjustin.github.io/teaching/2015-spring-teaching-1" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://leiyangjustin.github.io/publication/Skeleton-section-template-deformation" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -308,7 +330,7 @@
 
   <nav class="pagination">
     
-      <a href="https://leiyangjustin.github.io/teaching/2014-spring-teaching-1" class="pagination--pager" title="Teaching experience 1
+      <a href="https://leiyangjustin.github.io/publication/Human-body-modeling" class="pagination--pager" title="Learn to Predict How Humans Manipulate Large-sized Objects from Interactive Motions
 ">Previous</a>
     
     
