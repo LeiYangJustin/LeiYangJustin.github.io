@@ -9,9 +9,8 @@ excerpt: 'This is a collection of works that I did during my PhD study at Dalian
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-# Finite element mesh deformation with the skeleton-section template
-
-## This project aims to provide an intuitive deformation metaphor for slender structures like beams that are widely seen in automobile structure design.
+## Finite element mesh deformation with the skeleton-section template
+### This project aims to provide an intuitive deformation metaphor for slender structures like beams that are widely seen in automobile structure design.
 
 **Abstract:** To develop fast finite element (FE) adaptation methods for simulation-driven design optimization, we propose a radial basis functions (RBF) method with a skeleton-section template to globally and locally deform FE meshes of thin-walled beam structures.
 
@@ -28,17 +27,15 @@ Numerical examples demonstrate that intuitive and qualified FE mesh deformations
 [Link to the publisher's version](https://www.sciencedirect.com/science/article/abs/pii/S0010448515001621)
 
 
-# Skeleton-Section Template Parameterization for Shape Optimization
-
-## This project showcases that it is promising to use the previous work for sampling the design space for crashworthiness design of a structure.
+## Skeleton-Section Template Parameterization for Shape Optimization
+### This project showcases that it is promising to use the previous work for sampling the design space for crashworthiness design of a structure.
 
 **Abstract:** A technique based on a skeleton-section template for parameterizing finite element (FE) models is reported and applied to shape optimization of thin-walled beam components. The template consists of a skeletal curve and a set of cross-sectional profiles. The skeletal curve can be used to derive global model variations, while the cross section is designed to obtain local deformations of the given shape. A mesh deformation method based on the radial basis functions (RBF) interpolation is employed to derive the shape variations. Specifically, the skeleton-embedding space and an anisotropic distance metric are introduced to improve the RBF deformation method. To validate the applicability of the proposed template-based parameterization technique to general shape optimization frameworks, two proof-of-concept numerical studies pertaining to crashworthiness design of an S-shaped frame were implemented. The first case study focused on global deformations with the skeletal curve, and the second treated the cross-sectional profiles as design parameters to derive local reinforcements on the model. Both studies showed the efficiency of the proposed method in generation of quality shape variants for optimization. From the numerical results, considerable amount of improvements in crashworthiness performances of the S-shaped frame were observed as measured by the peak crushing force (PCF) and the energy absorption. We conclude that the proposed template-based parameterization technique is suitable for shape optimization tasks.
 
 [Link to the publisher's version](https://doi.org/10.1115/1.4040487)
 
-# Concurrent editing of automotive styling and structure with wireframe-pair
-
-## This project aims to provide an intuitive deformation metaphor for the body-in-white of an automobile.
+## Concurrent editing of automotive styling and structure with wireframe-pair
+### This project aims to provide an intuitive deformation metaphor for the body-in-white of an automobile.
 
 **Abstract:** A constant demand in engineering design is to couple aesthetics and functionality of design. In this paper, a method is proposed to rapidly update the structural analysis models given the modifications made in the styling/packaging designs, forming a concurrent mechanism for developing the automotive styling and body structure. The seemingly disparate domains are represented by and thus coupled through a pair of wireframes. A joint mapping based on the hard points in packaging and a part mapping encoding local influences between wireframes are established. The deformation transfer from one of the wireframes to the other is solved as an optimization with constraints obtained from the two mappings. Finally, the finite element mesh model is adapted in accordance with the deformed structural wireframe, using a mesh morphing method based on the free-form deformation technique. Numerical results validate the proposed method and demonstrate its effectiveness.
 
