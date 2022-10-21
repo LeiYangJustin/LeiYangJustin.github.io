@@ -4,7 +4,7 @@ title: "About Our Lab at TransGP"
 author_profile: true
 redirect_from: 
   - /tgp_lab/
-  - /transgp_lab.html
+  - /tgp_lab.html
 ---
 
 Under construction
