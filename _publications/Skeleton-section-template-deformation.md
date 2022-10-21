@@ -2,7 +2,7 @@
 title: "A RBF-based Deformation Method for Fast Adaptation of Finite Element Analysis Models for Structural Design"
 collection: publications
 permalink: /publication/Skeleton-section-template-deformation
-excerpt: 'This is a collection of works that I did during my PhD study at Dalian University of Technology'
+excerpt: 'A collection of works that I did during my PhD study at Dalian University of Technology'
 date: 2018-11-01
 # venue: 'Computer-Aided Design'
 # paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0010448515001621'
