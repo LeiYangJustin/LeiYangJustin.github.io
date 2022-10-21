@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/mapping-in-a-cycle
 excerpt: 'An unsupervised learning framework with the pretext task of finding dense correspondences between point cloud shapes from the same category based on the cycle-consistency formulation.'
 date: 2020-08-23
-venue: 'ECCV2020'
+venue: 'European Conference on Computer Vision (2020)'
 paperurl: 'https://arxiv.org/pdf/2007.09594.pdf'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---

@@ -13,4 +13,8 @@ Hello there.
 I am now working as a Research Officer at TransGP. [TransGP](https://www.transgp.hk/) is a research centre funded by HKSAR government. 
 Here I work closely with [Prof. Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping), [Prof. Taku Komura](https://www.cs.hku.hk/index.php/people/academic-staff/taku), and [Dr. Jia Pan](https://www.cs.hku.hk/people/academic-staff/jpan) on developing a wide range of advancing technologies for human-robot interaction for manufacturing industries. We have openings for Research asssitants and Postdoctoral researchers at TransGP. Please feel free to drop an email for inquiry.
 
-My current research interests include *geometric modeling* (especially for fabrics and clothes), *robotic vision*, *human intention modeling*. I also collaborate with students supervised by three professors on *geometry modeling*, *vision-language navigation*, *robotic control with haptic/force sensors*, and *synthesis and estimation of human and hand motions*.
+### Research interests
+My current research interests include *geometric modeling*, *robotic vision*, *human intention modeling*. I also collaborate with students supervised by three professors on *geometry modeling*, *vision-language navigation*, *robotic control with haptic/force sensors*, and *synthesis and estimation of human and hand motions*.
+
+### Prior experience
+Before joining TransGP, I was a postdoctoral researcher under Prof. Wenping Wang's supervision at the University of Hong Kong. I started my PhD study at Dalian University of Technology in September, 2012 and earned the degree in November, 2018. Back then, I was majored in Automobible Engineering, and was under supervision of Prof. Ping Hu and Dr. Baojun Li. I obtained my Bachelor's degree at Dalian University of Technology too.

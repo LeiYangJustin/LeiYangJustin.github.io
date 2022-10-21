@@ -2,9 +2,9 @@
 title: "Learn to Predict How Humans Manipulate Large-sized Objects from Interactive Motions"
 collection: publications
 permalink: /publication/Human-body-modeling
-# excerpt: 'An unsupervised learning framework with the pretext task of finding dense correspondences between point cloud shapes from the same category based on the cycle-consistency formulation.'
+excerpt: 'The first dataset concerning how humans interact with large-sized daily objects'
 date: 2022-02-14
-venue: 'RAL'
+venue: 'IEEE Robotics and Automation Letters'
 paperurl: 'https://hiwilliamwwl.github.io/Learn-to-Predict-How-Humans-Manipulate-Large-Sized-Objects-From-Interactive-Motions-objects/'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
