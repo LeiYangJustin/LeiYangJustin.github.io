@@ -10,7 +10,7 @@ redirect_from:
 
 Hello there.
 
-I am now working as a Research Officer at [TransGP](https://www.transgp.hk/), an InnoHK research centre funded by HKSAR government (see more details about [the InnoHK funding]https://www.itc.gov.hk/en/technological_infrastructure/innohk_clusters.html). 
+I am now working as a Research Officer at [TransGP](https://www.transgp.hk/), an InnoHK research centre funded by HKSAR government (see more details about [the InnoHK funding]https://www.itc.gov.hk/en/technological_infrastructure/innohk_clusters.html).
 Here I work closely with [Prof. Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping), [Prof. Taku Komura](https://www.cs.hku.hk/index.php/people/academic-staff/taku), and [Dr. Jia Pan](https://www.cs.hku.hk/people/academic-staff/jpan) on developing a wide range of advancing technologies for human-robot interaction in manufacturing industries (with an emphasis on garment manufacturing). 
 We have multiple openings for Research Asssitants and Postdoctoral Researchers at TransGP. Please feel free to drop an email for inquiry.
 
